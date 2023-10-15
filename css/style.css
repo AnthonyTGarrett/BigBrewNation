@@ -23,33 +23,10 @@ Large: 1.8
 
 --- 02 COLORS
 
-- Primary: #e67e22
-- Tints:
-#fdf2e9
-#fae5d3
-#eb984e
+- Primary: #0033A0 #ffffff
+- Secondary: #1897d4 #202c5f
+- Grays: #c8c8c7 #63656a
 
-- Shades: 
-#cf711f
-#45260a
-
-- Accents:
-- Greys
-
-#888
-#767676 (lightest grey allowed on #fff)
-#6f6f6f (lightest grey allowed on #fdf2e9)
-#555
-#333
-
---- 05 SHADOWS
-
-0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
-
---- 06 BORDER-RADIUS
-
-Default: 9px
-Medium: 11px
 
 --- 07 WHITESPACE
 
