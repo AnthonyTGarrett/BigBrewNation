@@ -35,11 +35,11 @@ Large: 1.8
 */
 
 
-
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  /* border: 1px red solid; */
 }
 
 html {
@@ -69,3 +69,132 @@ body {
   padding: 0 3.2rem;
   margin: 0 auto;
 }
+
+h1 {
+  font-size: 8.6rem;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  margin-bottom: 6rem;
+}
+
+h3 {
+  font-size: 2.4rem;
+}
+
+/**************************/
+/* HEADER                */
+/**************************/
+
+.main-nav {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 2.2rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #63656a;
+  font-weight: 700;
+  font-size: 2.4rem;
+  transition: all 0.56s ease;
+  text-transform: uppercase;
+  padding: 0.8rem 0;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #0033A0;
+}
+
+.main-logo {
+  max-width: 20rem;
+}
+
+/**************************/
+/* HERO              */
+/**************************/
+.section-hero {
+  height: 100vh;
+  background: rgb(255,255,255);
+
+  background-image: linear-gradient(0deg, rgba(255,255,255,0.12) 0%, rgba(255,255,255,0.25) 70%, rgba(255,255,255,1) 100%),url(../img/hero-image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/**************************/
+/* New Beers            */
+/**************************/
+
+.section-new-beers {
+  padding: 8rem 0;
+  text-align: center;
+}
+
+.beer-box {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 12rem 3rem;
+}
+
+.beer-box-beer img{
+  height: 500px;
+}
+
+.beer-box-beer {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6.5rem;
+}
+
+.beer-details {
+  width: 60%;
+}
+
+.beer-details p {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+}
+
+/**************************/
+/* Testimonials           */
+/**************************/
+.section-testimonials {
+  height: 100vh;
+}
+
+.testimonials-first {
+  display: flex;
+}
+
+.user img {
+  border-radius: 50%;
+}
+
+.testimonials-first color {
+  background-color: #0033A0;
+}
+
+.testimonial-square {
+  max-width: 50%;
+  height: 50vh;
+}
+
+.section-testimonials color {
+  background-color: #63656a;
+}
+
