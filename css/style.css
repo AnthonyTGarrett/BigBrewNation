@@ -74,7 +74,7 @@ h1 {
   font-size: 8.6rem;
   font-weight: 400;
   letter-spacing: 0.5px;
-  margin-bottom: 6rem;
+  margin: 6rem 0;
 }
 
 h3 {
@@ -138,6 +138,7 @@ h3 {
 .section-new-beers {
   padding: 8rem 0;
   text-align: center;
+  height: 100vh;
 }
 
 .beer-box {
@@ -179,22 +180,13 @@ h3 {
 }
 
 .section-testimonials div {
-  height: 70vh;
+  height: 60vh;
 }
 
 .first-color {
-  background-color: #0033A0;
+background-color: #1897d4;
 }
 
 .second-color {
-  background-color: #1897d4;
-}
-
-.user {
-  width: 50%;
-  height: 40%;
-}
-.user img {
-  max-width: 200px;
-  border-radius: 50%;
+background-color: #0033A0;
 }
