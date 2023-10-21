@@ -190,3 +190,58 @@ background-color: #1897d4;
 .second-color {
 background-color: #0033A0;
 }
+
+.testimonials-content {
+  display: flex;
+  padding: 4rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.user {
+  width: 30%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.user img {
+  width: 100%;
+  border-radius: 50%;
+  display: block;
+  margin-bottom: 4rem;
+}
+.user blockquote {
+  font-size: 1.7rem;
+  line-height: 1.4;
+}
+
+/**************************/
+/* Gallery           */
+/**************************/
+.section-gallery {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-rows: repeat(2,fr);
+}
+
+.gallery-item {
+  overflow: hidden;
+}
+
+.gallery-item img {
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.gallery-item img:hover {
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+  transform: scale(1.1);
+}
+
+
