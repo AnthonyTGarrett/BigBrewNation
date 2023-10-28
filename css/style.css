@@ -317,4 +317,5 @@ address {
 .section-footer {
   background-color: #63656a;
   color: #fff;
+  height: 50vh;
 }
