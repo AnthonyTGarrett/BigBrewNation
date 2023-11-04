@@ -153,7 +153,7 @@ h3 {
 }
 
 .beer-box-beer {
-  width: 10%;
+  width: 15%;
   height: 800px;
   display: flex;
   flex-direction: column;
@@ -317,5 +317,5 @@ address {
 .section-footer {
   background-color: #63656a;
   color: #fff;
-  height: 50vh;
+  height: 20vh;
 }
