@@ -8,25 +8,39 @@
 
 */
 
-@media screen and (max-width: 768px) {
-  
- .main-nav-list {
-  display: flex;
-  align-items: flex-start;
- }
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  header {
+    position: relative;
+  }
 
- .main-nav-list li {
-  display: none;
- }
+  #main-nav {
+    justify-content: flex-start;
+  }
+  .main-nav-list {
+    flex-direction: column;
+  }
 
- .main-logo {
-  max-width: 8rem !important;
- }
+  .main-nav-list li {
+    display: none;
+  }
 
- .section-hero:before {
-  position: absolute;
- }
+  .main-logo {
+    max-width: 8rem !important;
+  }
+  .section-hero {
+    background: #fff !important;
+  }
 
+  .section-hero:before {
+    position: absolute;
+  }
+
+  .menu-toggle {
+    display: flex !important;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {

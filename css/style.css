@@ -34,7 +34,6 @@ Large: 1.8
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 */
 
-
 * {
   padding: 0;
   margin: 0;
@@ -43,14 +42,13 @@ Large: 1.8
 }
 
 html {
-
   font-size: 62.5%;
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #555;
@@ -79,6 +77,20 @@ h1 {
 
 h3 {
   font-size: 2.4rem;
+}
+
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.bar {
+  width: 30px;
+  height: 3px;
+  background-color: #333;
+  margin: 3px 0;
+  transition: 0.4s;
 }
 
 /**************************/
@@ -111,7 +123,7 @@ h3 {
 
 .main-nav-link:hover,
 .main-nav-link:active {
-  color: #0033A0;
+  color: #0033a0;
 }
 
 .main-logo {
@@ -123,9 +135,15 @@ h3 {
 /**************************/
 .section-hero {
   height: 100vh;
-  background: rgb(255,255,255);
+  background: rgb(255, 255, 255);
 
-  background-image: linear-gradient(0deg, rgba(255,255,255,0.12) 0%, rgba(255,255,255,0.25) 70%, rgba(255,255,255,1) 100%),url(../img/hero-image.jpg);
+  background-image: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.12) 0%,
+      rgba(255, 255, 255, 0.25) 70%,
+      rgba(255, 255, 255, 1) 100%
+    ),
+    url(../img/hero-image.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -148,7 +166,7 @@ h3 {
   padding: 12rem 3rem;
 }
 
-.beer-box-beer img{
+.beer-box-beer img {
   width: 100%;
 }
 
@@ -184,14 +202,26 @@ h3 {
 }
 
 .first-color {
-  background-image: radial-gradient(circle, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.6) 80%, rgba(0,0,0,0.9) 100%), url(../img/brew_image1.jpg);
+  background-image: radial-gradient(
+      circle,
+      rgba(0, 0, 0, 0.3) 0%,
+      rgba(0, 0, 0, 0.6) 80%,
+      rgba(0, 0, 0, 0.9) 100%
+    ),
+    url(../img/brew_image1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .second-color {
-  background-image: radial-gradient(circle, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.6) 80%, rgba(0,0,0,0.9) 100%), url(../img/brew_image2.jpg);
+  background-image: radial-gradient(
+      circle,
+      rgba(0, 0, 0, 0.3) 0%,
+      rgba(0, 0, 0, 0.6) 80%,
+      rgba(0, 0, 0, 0.9) 100%
+    ),
+    url(../img/brew_image2.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -229,7 +259,7 @@ h3 {
 .section-gallery {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
-  grid-template-rows: repeat(2,fr);
+  grid-template-rows: repeat(2, fr);
   row-gap: 0;
 }
 
@@ -250,7 +280,6 @@ h3 {
   filter: grayscale(0%);
   transform: scale(1.1);
 }
-
 
 /**************************/
 /* Contact            */
@@ -283,7 +312,6 @@ h3 {
   align-items: center;
   font-size: 2.1rem;
   text-align: center;
-
 }
 
 .right-contact h4 {
@@ -299,10 +327,9 @@ h3 {
   color: #63656a;
   font-weight: 700;
   font-size: 2.2rem;
-
 }
 
-h5{
+h5 {
   margin-top: 4rem;
   font-size: 2.1rem;
 }
