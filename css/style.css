@@ -89,10 +89,16 @@ h3 {
 /* HEADER                */
 /**************************/
 
+header {
+  padding-left: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
 .main-nav {
   margin: 0 auto;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .main-nav-list {
@@ -119,7 +125,7 @@ h3 {
 }
 
 .main-logo {
-  max-width: 20rem;
+  max-width: 7rem;
 }
 
 /**************************/
