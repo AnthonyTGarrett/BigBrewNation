@@ -214,8 +214,8 @@ h3 {
 
 .feature img {
   max-width: 100%;
-  display: none;
-  transition: all 1.4s ease-in;
+  opacity: 0;
+  transition: all 2.5s ease;
 }
 
 

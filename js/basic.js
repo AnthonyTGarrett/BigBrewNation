@@ -21,9 +21,13 @@ function changeCss () {
     document.getElementById("logo").src="../img/logo-white.png";
   }
 
-  if(this.scrollY > 300) {
+  if(this.scrollY > 200) {
     featureList.forEach(el => {
-      el.style.display = "block"; 
+      el.style.opacity = "100"; 
+      });
+  } else {
+    featureList.forEach(el => {
+      el.style.opacity = "0"; 
       });
   }
 }
