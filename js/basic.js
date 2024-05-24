@@ -3,6 +3,7 @@ function changeCss () {
   var headerElement = document.querySelector("header");
   var navElement = document.querySelector(".main-nav");
   var logoElement = document.querySelector(".main-logo");
+  var featureList = document.querySelectorAll(".feature img");
 
   if(this.scrollY > 50) {
     headerElement.style.position = "Fixed";
@@ -18,6 +19,12 @@ function changeCss () {
     headerElement.style.minWidth = "100%";
     logoElement.style.maxWidth = "16rem";
     document.getElementById("logo").src="../img/logo-white.png";
+  }
+
+  if(this.scrollY > 300) {
+    featureList.forEach(el => {
+      el.style.display = "block"; 
+      });
   }
 }
 window.addEventListener("scroll", changeCss , false);

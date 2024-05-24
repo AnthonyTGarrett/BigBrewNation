@@ -207,13 +207,15 @@ h3 {
 
 .section-features > * {
   margin: 0.7rem;
-  background-color: #000;
+  background-color: #fff;
   flex: 1;
   border-radius: 5px;
 }
 
 .feature img {
-  max-width: 100%;;
+  max-width: 100%;
+  display: none;
+  transition: all 1.4s ease-in;
 }
 
 
@@ -224,7 +226,6 @@ h3 {
   background-color: #63656a;
   color: #fff;
   height: 40vh;
-
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -235,7 +236,6 @@ h3 {
   align-items: center;
   justify-content: space-around;
   column-gap: 8rem;
-
   font-size: 1.4rem;
   line-height: 1.3;
 }
