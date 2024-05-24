@@ -86,19 +86,50 @@ h3 {
 }
 
 /**************************/
+/* Hero Section              */
+/**************************/
+
+.section-hero {
+  height: 100vh;
+  background-image: linear-gradient(90deg, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.45) 45%); 
+  border-top-left-radius: 10px;
+}
+
+/**************************/
 /* HEADER                */
 /**************************/
 
-header {
-  padding-left: 3rem;
-  display: flex;
-  justify-content: space-between;
+.video-background {
+  position: fixed;
+  right: 0; 
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto; 
+  z-index: -100;
+  background-size: cover;
 }
 
-.main-nav {
-  margin: 0 auto;
+.video-background video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.header {
   display: flex;
-  justify-content: flex-start;
+  align-items: center;
+  padding: 1.8rem 12rem;
 }
 
 .main-nav-list {
@@ -106,42 +137,30 @@ header {
   display: flex;
   align-items: center;
   gap: 2.2rem;
+  text-transform: uppercase;
 }
 
 .main-nav-link:link,
 .main-nav-link:visited {
   display: inline-block;
   text-decoration: none;
-  color: #63656a;
-  font-weight: 700;
-  font-size: 2.4rem;
+  color: #ebebeb;
+  font-weight: 300;
+  font-size: 1.7rem;
   transition: all 0.56s ease;
   padding: 0.8rem 0;
 }
 
 .main-nav-link:hover,
 .main-nav-link:active {
-  color: #0033a0;
+  color:  var(--gray-light);
 }
 
 .main-logo {
-  max-width: 7rem;
+  max-width: 16rem;
+  margin-right: auto;
 }
 
-/**************************/
-/* Features Section              */
-/**************************/
-.section-hero {
-  height: 100vh;
-  background: rgb(255, 255, 255);
-
-  background-image: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5) 45%),
-    url(../img/hero-image.jpg);
-    
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
 
 
 /**************************/
