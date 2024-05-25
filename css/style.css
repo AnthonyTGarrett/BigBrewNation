@@ -212,6 +212,23 @@ h3 {
   border-radius: 5px;
 }
 
+.feature {
+  position: relative;
+  text-align: center;
+}
+
+.feature p {
+  color: #fff;
+  font-size: 3rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
 .feature img {
   max-width: 100%;
   opacity: 0;
