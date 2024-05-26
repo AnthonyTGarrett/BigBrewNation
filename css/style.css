@@ -67,6 +67,17 @@ body {
 /* GENRAL REUSABLE COMPONENTS */
 /**************************/
 
+.overlay {
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background-color:rgba(0, 0, 0, 0.85);
+  z-index:9999;
+  color:white;
+}
+
 .container {
   /* 1140px */
   max-width: 120rem;
@@ -209,7 +220,6 @@ h3 {
   margin: 0.7rem;
   background-color: #fff;
   flex: 1;
-  border-radius: 5px;
 }
 
 .feature {
@@ -232,7 +242,9 @@ h3 {
 .feature img {
   max-width: 100%;
   opacity: 0;
+  position: relative;
   transition: all 2.5s ease;
+  border-radius: 5px;
 }
 
 
@@ -242,10 +254,13 @@ h3 {
 .section-footer {
   background-color: #63656a;
   color: #fff;
-  height: 40vh;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+}
+
+.section-footer img {
+  max-width: 10rem;
 }
 
 .footer-content {
@@ -255,10 +270,4 @@ h3 {
   column-gap: 8rem;
   font-size: 1.4rem;
   line-height: 1.3;
-}
-
-.footer-content img {
-  width: 150px;
-  height: 150px;
-
 }
