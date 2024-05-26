@@ -3,7 +3,7 @@ function changeCss () {
   var headerElement = document.querySelector("header");
   var navElement = document.querySelector(".main-nav");
   var logoElement = document.querySelector(".main-logo");
-  var featureList = document.querySelectorAll(".feature img");
+  var featureList = document.querySelectorAll(".feature *");
 
   if(this.scrollY > 50) {
     headerElement.style.position = "Fixed";

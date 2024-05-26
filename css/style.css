@@ -73,9 +73,11 @@ body {
   left:0;
   right:0;
   bottom:0;
-  background-color:rgba(0, 0, 0, 0.85);
+  background-color:rgba(0, 0, 0, 0.65);
   z-index:9999;
   color:white;
+  transition: all 2.5s ease;
+  border-radius: 5%;
 }
 
 .container {
@@ -183,24 +185,6 @@ h3 {
   border-bottom: 1px solid var(--gray-light);
 }
 
-.card {
-  border: 2px solid #fff;
-  border-radius: 5px;
-  transition: all 0.56s ease;
-}
-
-.card .main-nav-link:link,
-.card .main-nav-link:visited {
-  font-weight: 500;
-  padding: 0.8rem 1rem;
-}
-
-.card a:hover,
-.card a:active {
-  background-color: #fff;
-  color: var(--primary-color);
-}
-
 .main-logo {
   max-width: 16rem;
   margin-right: auto;
@@ -218,8 +202,8 @@ h3 {
 
 .section-features > * {
   margin: 0.7rem;
-  background-color: #fff;
   flex: 1;
+  border-radius: 5px;
 }
 
 .feature {
@@ -237,14 +221,19 @@ h3 {
   -moz-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
+  z-index: 9999;
 }
 
 .feature img {
   max-width: 100%;
-  opacity: 0;
+  min-height: 100%;
   position: relative;
   transition: all 2.5s ease;
-  border-radius: 5px;
+  border-radius: 5%;
+}
+
+.feature:hover {
+  scale: 1.15;
 }
 
 
