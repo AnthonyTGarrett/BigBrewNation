@@ -67,19 +67,6 @@ body {
 /* GENRAL REUSABLE COMPONENTS */
 /**************************/
 
-.overlay {
-  position:absolute;
-  top:0;
-  left:0;
-  right:0;
-  bottom:0;
-  background-color:rgba(0, 0, 0, 0.65);
-  z-index:9999;
-  color:white;
-  transition: all 2.5s ease;
-  border-radius: 5%;
-}
-
 .container {
   /* 1140px */
   max-width: 120rem;
@@ -221,12 +208,13 @@ h3 {
 .section-features > * {
   margin: 0.7rem;
   flex: 1;
-  border-radius: 5px;
 }
 
 .feature {
   position: relative;
   text-align: center;
+  transition: all 2.5s ease;
+  overflow: hidden;
 }
 
 .feature p {
@@ -247,12 +235,12 @@ h3 {
   min-height: 100%;
   position: relative;
   transition: all 2.5s ease;
-  border-radius: 5%;
 }
 
 .feature img:hover {
   scale: 1.15;
 }
+
 
 
 /**************************/

@@ -21,7 +21,7 @@ function changeCss () {
     document.getElementById("logo").src="../img/logo-white.png";
   }
 
-  if(this.scrollY > 200) {
+  if(this.scrollY > 300) {
     featureList.forEach(el => {
       el.style.opacity = "100"; 
       });
