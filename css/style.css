@@ -240,7 +240,7 @@ h3 {
 }
 
 .feature img:hover {
-  transform: scaleX(1.1);
+  transform: scale(1.1);
 }
 
 /*
@@ -250,11 +250,12 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 10rem;
 }
 
 .header-text {
   color: var(--gray-light);
-  font-size: 8rem;
+  font-size: 6rem;
   font-weight: 300;
 }
 
@@ -267,21 +268,39 @@ h3 {
 }
 
 .beer {
-  flex: 1 1 33.3333%;
+  flex: 1 1 300px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  gap: 4rem;
+  margin-bottom: 2.6rem;
+  padding: 2rem 0;
 }
 
 .beer img{
   width: 30%;
   transition: all 0.56s ease;
+  padding-bottom: 2rem;
 }
 
 .beer img:hover {
   transform: scale(1.05);
+}
+
+.beer p {
+  color: var(--gray-light);
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.beer .beer-description {
+  text-align: center;
+  width: 80%;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  padding: 0.8rem 0;
+  text-transform: capitalize;
 }
 
 /**************************/
