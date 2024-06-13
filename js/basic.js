@@ -5,20 +5,20 @@ function changeCss () {
   var logoElement = document.querySelector(".main-logo");
   var featureList = document.querySelectorAll(".feature *");
 
-  if(this.scrollY > 50) {
+  if(this.scrollY > 80) {
     headerElement.style.position = "Fixed";
-    headerElement.style.backgroundColor = "rgba(255,255,255,0.5)";
+    headerElement.style.backgroundColor = "rgba(255,255,255,0.4";
     headerElement.style.padding = "1rem 10rem";
     headerElement.style.minWidth = "100%";
     logoElement.style.maxWidth = "10rem";
-    document.getElementById("logo").src="../img/logo-blue.png";
+    // document.getElementById("logo").src="../img/logo-blue.png";
   } else {
     headerElement.style.position = "Static";
     headerElement.style.backgroundColor = "transparent";
     headerElement.style.padding = "1.8rem 12rem";
     headerElement.style.minWidth = "100%";
     logoElement.style.maxWidth = "16rem";
-    document.getElementById("logo").src="../img/logo-white.png";
+    // document.getElementById("logo").src="../img/logo-white.png";
   }
 
   if(this.scrollY > 300) {
