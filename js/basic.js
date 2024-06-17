@@ -1,7 +1,7 @@
 // Testing this out
 function changeCss () {
   var headerElement = document.querySelector("header");
-  var navElement = document.querySelector(".main-nav");
+  var listElement = document.querySelector(".beerlist-content");
   var logoElement = document.querySelector(".main-logo");
   var featureList = document.querySelectorAll(".feature *");
 
