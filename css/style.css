@@ -43,7 +43,7 @@ Large: 1.8
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  /* border: 1px red solid; */
+  border: 1px red solid;
 }
 
 html {
@@ -131,6 +131,7 @@ h3 {
 .header {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding: 1.8rem 12rem;
   transition: all 0.56s ease;
   z-index: 2;
@@ -164,7 +165,7 @@ h3 {
   font-weight: 300;
   font-size: 1.7rem;
   transition: all 0.56s ease;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
   padding-bottom: 0.5rem;
 }
 
@@ -190,12 +191,12 @@ h3 {
 .card a:active {
   background-color: #fff;
   color: var(--primary-color);
-  border: none;
+  border: 2px solid transparent;
 }
 
 .main-logo {
   max-width: 16rem;
-  margin-right: auto;
+  /* margin-right: auto; */
   transition: all 1.4s ease;
 }
 
@@ -306,6 +307,18 @@ h3 {
   line-height: 1.4;
   padding: 0.8rem 0;
   text-transform: capitalize;
+}
+
+/**************************/
+/* Hours            */
+/**************************/
+
+.section-hero-hours {
+  min-height: 100vh;
+}
+
+.hours-content {
+  min-height: 100%;
 }
 
 /**************************/
