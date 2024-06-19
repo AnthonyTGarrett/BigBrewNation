@@ -315,10 +315,33 @@ h3 {
 
 .section-hero-hours {
   min-height: 100vh;
+
 }
 
 .hours-content {
   min-height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 4.3rem;
+}
+
+.left-content,
+.right-content {
+  width: 50%;
+  height: 75vh;
+  flex: 1 1 400px;
+}
+
+.left-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact {
+  color: var(--gray-light);
+  line-height: 2;
+  font-size: 2.2rem;
 }
 
 /**************************/
