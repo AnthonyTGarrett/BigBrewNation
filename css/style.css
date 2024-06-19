@@ -336,13 +336,23 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 .contact {
   color: var(--gray-light);
   line-height: 2;
   font-size: 2.2rem;
+  
 }
+
+address,
+.open-hours {
+  font-size: 1.6rem;
+  line-height: 1.2;
+}
+
+
 
 /**************************/
 /* Footer            */
