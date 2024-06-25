@@ -282,8 +282,20 @@ h3 {
 }
 
 .beer-header-text {
-  color: var(--gray-dark);
+  color: var(--gray-light);
   text-align: center;
+}
+
+.beer-header-text h1 {
+  font-weight: 300;
+}
+
+.updated {
+  font-size: 4rem;
+}
+
+.date {
+  font-size: 4rem;
 }
 
 .beer {
