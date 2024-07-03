@@ -31,3 +31,11 @@ function changeCss () {
   }
 }
 window.addEventListener("scroll", changeCss , false);
+
+function iconClick() {
+
+}
+
+var chevronElement = document.querySelector("#chevron-down");
+
+chevronElement.addEventListener("click", iconClick , false);
