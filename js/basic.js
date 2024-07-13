@@ -1,4 +1,6 @@
 // Testing this out
+
+
 function changeCss () {
   var headerElement = document.querySelector("header");
   var logoElement = document.querySelector(".main-logo");
@@ -32,10 +34,14 @@ function changeCss () {
 }
 window.addEventListener("scroll", changeCss , false);
 
-function iconClick() {
+let dateElement = document.querySelector(".date");
+const date = new Date();
 
-}
+let day = date.getDate();
+let month = date.getMonth() + 1;
+let year = date.getFullYear();
+let currentDate = `${month}-${day}-${year}`;
 
-var chevronElement = document.querySelector("#chevron-down");
-
-chevronElement.addEventListener("click", iconClick , false);
+document.addEventListener("DOMContentLoaded", (event) => {
+  dateElement.innerHTML = currentDate;
+});
