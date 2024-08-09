@@ -9,7 +9,7 @@ function changeCss () {
   if(this.scrollY > 80) {
     headerElement.style.position = "Fixed";
     headerElement.style.backgroundColor = "rgba(255,255,255,0.4";
-    headerElement.style.padding = "1rem 10rem";
+    headerElement.style.padding = "0.4rem 10rem";
     headerElement.style.minWidth = "100%";
     logoElement.style.maxWidth = "10rem";
 
@@ -45,3 +45,10 @@ let currentDate = `${month}-${day}-${year}`;
 document.addEventListener("DOMContentLoaded", (event) => {
   dateElement.innerHTML = currentDate;
 });
+
+let chevron = document.querySelector(".chevron-down");
+let scrollElement = document.querySelector(".section-beers");
+function chevronClick() {
+  scrollElement.scrollIntoView({ behavior: "smooth", inline: "nearest" });
+}
+chevron.addEventListener("click", chevronClick, false);
