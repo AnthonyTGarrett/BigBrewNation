@@ -89,7 +89,7 @@ h1 {
   font-size: 8.6rem;
   font-weight: 400;
   letter-spacing: 0.5px;
-  margin: 6rem 0;
+  font-family: "Work Sans";
 }
 
 h3 {
@@ -397,6 +397,38 @@ h3 {
   width: 100%;
   padding: 1rem;
 }
+
+/**************************/
+/* Gift Cards             */
+/**************************/
+.section-hero-cards {
+  height: 40vh;
+  background: url(../img/gallery_5.jpg), linear-gradient(180deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.8) 70%, rgba(0,0,0,1) 95%); 
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  border-top-left-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-hero-cards-text {
+  text-align: center;
+  color: var(--gray-light);
+  padding: 0;
+  margin: 0;
+}
+
+.section-hero-cards-text h1 {
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+.cards-choice {
+  height: 100vh;
+  background-color: #ffffffe3;
+}
+
 
 
 
