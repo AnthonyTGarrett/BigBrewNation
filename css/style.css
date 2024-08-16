@@ -175,7 +175,7 @@ h3 {
   font-weight: 300;
   font-size: 1.7rem;
   transition: all 0.56s ease;
-  border: 2px solid transparent;
+  border: 1px solid transparent;
   padding-bottom: 0.5rem;
 }
 
@@ -200,7 +200,7 @@ h3 {
 .card a:hover,
 .card a:active {
   background-color: #fff;
-  color: var(--primary-color);
+  color: var(--secondary-color-light);
   border: 2px solid transparent;
 }
 
@@ -398,13 +398,20 @@ h3 {
 }
 
 .employee p {
+  font-weight: bold;
   font-size: 2.5rem;
-  color: var(--gray-light);
+  color: var(--gray-dark);
+  text-transform: uppercase;
+}
+
+.employee .job-title {
+  font-size: 1.8rem;
+  color: #000;
 }
 
 .employee img {
   width: 100%;
-  padding: 1rem;
+  padding: 3rem;
 }
 
 /**************************/
@@ -436,6 +443,22 @@ h3 {
 .section-hero-cards-text h1 {
   font-weight: 300;
   margin-bottom: 2rem;
+}
+
+.gift-card-header-link:link,
+.gift-card-header-link {
+  display: inline-block;
+  text-decoration: none;
+  color: #ebebeb;
+  font-weight: 300;
+  font-size: 1.7rem;
+  transition: all 0.56s ease;
+  padding-bottom: 0.5rem;
+}
+
+.gift-card-header-link:hover,
+.gift-card-header-link:active {
+  color:  var(--secondary-color-light);
 }
 
 .gift-cards-choice {
