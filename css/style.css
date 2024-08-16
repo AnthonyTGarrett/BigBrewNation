@@ -468,15 +468,15 @@ h3 {
 .gift-cards {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   gap: 10rem;
 }
 
-.gift-card {
-
-}
-
-.gift-card-text {
-
+.electronic-gift-card,
+.physical-gift-card {
+  background-color: #fff;
+  width: 70%;
 }
 
 
