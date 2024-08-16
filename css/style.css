@@ -461,42 +461,6 @@ h3 {
   color:  var(--secondary-color-light);
 }
 
-.gift-cards-choice {
-  background-color: #ffffffe3;
-}
-
-.gift-cards {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 10rem;
-}
-
-.electronic-gift-card,
-.physical-gift-card {
-  background-color: #fff;
-  width: 70%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.electronic-gift-card img,
-.physical-gift-card img{
-  max-width: 90%;
-}
-
-.electronic-gift-card img,
-.card-flex-container {
-  width: 50%;
-}
-
-.electronic-gift-card {
-  padding: 6rem 1rem;
-  border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-}
 
 
 
