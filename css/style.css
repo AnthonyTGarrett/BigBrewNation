@@ -214,15 +214,11 @@ h3 {
 /* Feature Section        */
 /**************************/
 .section-features {
-  min-height: 50vh;
   background-color: #fff;
   padding: 0.7rem;
   display: flex;
-}
-
-.section-features > * {
-  margin: 0.7rem;
-  flex: 1;
+  align-items: center;
+  justify-content: center;
 }
 
 .feature {
@@ -230,6 +226,7 @@ h3 {
   text-align: center;
   transition: all 2.5s ease;
   overflow: hidden;
+  margin: 0.7rem;
 }
 
 .feature p {
