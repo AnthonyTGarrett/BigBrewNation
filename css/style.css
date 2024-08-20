@@ -531,6 +531,31 @@ h3 {
   background-color: var(--primary-color);
 }
 
+/**************************/
+/* Purchase            */
+/**************************/
+
+.section-hero-purchase {
+  height: 40vh;
+  background: url(../img/gallery_5.jpg), linear-gradient(180deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.8) 70%, rgba(0,0,0,1) 95%); 
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  border-top-left-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.section-hero-purchase-text {
+  text-align: center;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--gray-light);
+}
+
 
 /**************************/
 /* Footer            */
