@@ -32,9 +32,8 @@ Large: 1.8
 */
 
 :root {
-  --primary-color: #0033A0;
+  --primary-color: #1898d4cc;
   --secondary-color-light: #1897d4;
-  --secondary-color-dark: #202c5f; 
   --gray-light: #c8c8c7;
   --gray-dark: #63656a;
 }
@@ -458,8 +457,62 @@ h3 {
   color:  var(--secondary-color-light);
 }
 
+.gift-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 7rem;
+}
 
+.electronic-gift-card,
+.physical-gift-card {
+  display: flex;
+  max-width: 60%;
+  margin: 0 auto;
+  padding: 2rem 4rem;
+  margin-top: 10rem;
+}
 
+.electronic-gift-card img,
+.physical-gift-card img {
+  width: 50%;
+  height: auto;
+}
+
+.card-flex-container {
+  width: 50%;
+}
+
+.gift-card-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1.5rem 1rem;
+  color: var(--gray-light)
+}
+
+.gift-card {
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.gift-card-button:link,
+.gift-card-button:visited {
+  text-decoration: none;
+  color: #ebebeb;
+  font-weight: 300;
+  font-size: 1.7rem;
+  transition: all 0.56s ease;
+  padding: 1.8rem 3rem;
+  border-radius: 50px;
+  background-color: var(--secondary-color-light);
+}
+
+.gift-card-button:hover,
+.gift-card-button:active {
+  color:  var(--gray-light);
+  background-color: var(--primary-color);
+}
 
 
 /**************************/
