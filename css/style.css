@@ -558,10 +558,78 @@ h3 {
 /**************************/
 /* Card Balance        */
 /**************************/
-.card-balance-form {
-  min-height: 100vh;
+.card-balance-container {
+  min-height: 80vh;
   background-color: #fff;
 }
+
+.balance-form {
+  max-width: 40%;
+  margin: 0 auto;
+  display: block;
+  padding: 10rem 0;
+}
+
+.balance-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 3.6rem;
+  width: 50%;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.balance-form form label {
+  text-align: center;
+  margin-bottom: 3.6rem;
+}
+
+#pin-number {
+  width: 30%;
+  margin-bottom: 4rem;
+}
+
+.form-field {
+  font-family: inherit;
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid gray;
+  outline: 0;
+  font-size: 1.3rem;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+  text-align: center;
+}
+
+.form-field:focus::placeholder {
+  color: transparent;
+}
+
+.form-field:placeholder-shown {
+  font-size: 1.3rem;
+    cursor: text;
+    top: 20px;
+}
+
+.submitButton {
+  text-decoration: none;
+  color: #ebebeb;
+  font-weight: 300;
+  font-size: 1.7rem;
+  transition: all 0.56s ease;
+  padding: 1.8rem 1rem;
+  border-radius: 50px;
+  background-color: var(--secondary-color-light);
+  width: 50%;
+}
+
+.submitButton:hover {
+  color:  var(--gray-light);
+  background-color: var(--primary-color);
+  cursor: pointer;
+}
+
 
 
 

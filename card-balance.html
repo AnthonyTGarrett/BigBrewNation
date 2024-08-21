@@ -50,16 +50,27 @@
         </div>
         <div class="line"></div>
       </section>
-      <section class="card-balance-form">
-        <div class="container">
+      <section class="card-balance-container">
+        <div class="container balance-form">
           <form action="#" method="get">
-            <label for="card-number">Card Number</label>
-            <input type="text" name="card-number" id="card-number" />
-            <label for="pin-number">Pin Number</label>
-            <input type="text" name="pin-number" id="pin-number" />
-            <button type="submit" class="submitButton">Submit</button>
+            <input
+              type="text"
+              name="card-number"
+              class="form-field"
+              id="card-number"
+              placeholder="Card Number"
+            />
+            <!-- <label for="card-number" class="form-label">Card Number</label> -->
+            <input
+              type="text"
+              name="pin-number"
+              id="pin-number"
+              class="form-field"
+              placeholder="Pin Code"
+            />
+            <!-- <label for="pin-number" class="form-label">Pin Number</label> -->
+            <button type="submit" class="submitButton">Check Balance</button>
           </form>
-          <div class="result">holder</div>
         </div>
       </section>
     </main>
