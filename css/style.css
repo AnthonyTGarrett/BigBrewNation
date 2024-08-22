@@ -574,8 +574,8 @@ h3 {
 
 .section-purchase-form-container {
   background-color: #fff;
-  padding-top: 10rem;
-  min-height: 80vh;
+  padding: 10rem 0;
+  min-height: 100vh;
 }
 
 .purchase-card-sub-heading {
@@ -667,8 +667,27 @@ h3 {
 
 
  .short-code {
-  width: 50%;
+  width: 40%;
  }
+
+.purchase-card-button {
+  text-decoration: none;
+  color: #ebebeb;
+  font-weight: 300;
+  font-size: 1.7rem;
+  transition: all 0.56s ease;
+  padding: 1.8rem 3rem;
+  border-radius: 50px;
+  background-color: var(--secondary-color-light);
+  border: none;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+
+.purchase-card-button:hover {
+  color:  var(--gray-light);
+  background-color: var(--primary-color);
+}
 
 
 
@@ -746,6 +765,7 @@ h3 {
   background-color: var(--primary-color);
   cursor: pointer;
 }
+
 
 
 
