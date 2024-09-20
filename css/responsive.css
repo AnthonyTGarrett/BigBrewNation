@@ -38,8 +38,8 @@
     display: none;
   }
 
-  .line-beer {
-    display: inline-block;
+  .line {
+    display: none;
   }
 
   .section-hero-about-text,
@@ -74,12 +74,16 @@
     font-size: 3.6rem;
   }
 
+
   .chevron-down {
     display: none;
   }
 
   .section-dining {
     padding-top: 3rem;
+  }
+  .dining-container {
+    text-align: left;
   }
 
   .dining-container h2 {
@@ -97,6 +101,10 @@
 
   .dining-container img {
     width: 100%;
+  }
+
+  .section-hero-cards-text .gift-card-header-link {
+    display: none;
   }
 }
 
