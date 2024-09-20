@@ -21,16 +21,19 @@ function changeCss () {
     logoElement.style.maxWidth = "16rem";
 
   }
-
-  if(this.scrollY > 300) {
-    featureList.forEach(el => {
-      el.style.opacity = "100"; 
-      });
-  } else {
-    featureList.forEach(el => {
-      el.style.opacity = "0"; 
-      });
+  if (window.innerWidth > 768) {
+    if(this.scrollY > 300) {
+      featureList.forEach(el => {
+        el.style.opacity = "100"; 
+        });
+    } else {
+      featureList.forEach(el => {
+        el.style.opacity = "0"; 
+        });
+    }
   }
+
+
 }
 window.addEventListener("scroll", changeCss , false);
 

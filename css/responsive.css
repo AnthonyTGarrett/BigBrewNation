@@ -23,26 +23,63 @@
   .main-logo {
     max-width: 8rem !important;
   }
-  .section-hero {
-    background: #fff !important;
+
+  .section-features {
+    flex-direction: column;
   }
 
-  .section-hero:before {
-    position: absolute;
+  .footer-content {
+    flex-direction: column;
+    gap: 2rem;
   }
 
-  /* .menu-toggle {
-    display: flex !important;
+  .video-background,
+  .video-background video {
+    display: none;
+  }
+
+  .section-hero-about-text,
+  .section-hero-beer-text,
+  .section-hero-cards-text {
+    text-align: center;
     position: absolute;
-    top: 30px;
-    right: 30px;
-} */
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--gray-light);
+  }
+
+  .section-hero,
+  .section-hero-about,
+  .section-hero-beer,
+  .section-hero-cards {
+  height: 30vh;
+  background: linear-gradient(180deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.8) 70%, rgba(0,0,0,1) 95%); 
+  background: no-repeat center center cover;
+  background-blend-mode: overlay;
+  border-top-left-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  }
+
+  .section-hero-about-text h1,
+  .section-hero-beer-text h1,
+  .section-hero-cards-text h1 {
+    font-weight: 400;
+    font-size: 3.6rem;
+  }
+
+  .chevron-down {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
   .text {
     font-size: 16px;
   }
+
 }
 
 @media only screen and (min-width: 1025px) and (max-width: 1200px) {
