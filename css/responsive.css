@@ -38,6 +38,10 @@
     display: none;
   }
 
+  .line-beer {
+    display: inline-block;
+  }
+
   .section-hero-about-text,
   .section-hero-beer-text,
   .section-hero-cards-text {
@@ -72,6 +76,27 @@
 
   .chevron-down {
     display: none;
+  }
+
+  .section-dining {
+    padding-top: 3rem;
+  }
+
+  .dining-container h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .dining-container h3 {
+    font-size: 1.8rem;
+  }
+
+  .dining-container h3:last-of-type {
+    margin-bottom: 4rem;
+  }
+
+  .dining-container img {
+    width: 100%;
   }
 }
 

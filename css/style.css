@@ -345,6 +345,10 @@ h3 {
   text-transform: capitalize;
 }
 
+.line-beer {
+  display: none;
+}
+
 /**************************/
 /* About            */
 /**************************/
