@@ -31,6 +31,8 @@ Large: 1.8
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
   --primary-color: #1898d4cc;
   --secondary-color-light: #1897d4;
@@ -93,7 +95,6 @@ h1 {
   font-size: 8.6rem;
   font-weight: 400;
   letter-spacing: 0.5px;
-  font-family: "Work Sans";
 }
 
 h2 {
@@ -104,6 +105,14 @@ h2 {
 
 h3 {
   font-size: 2.4rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Work Sans";
 }
 
 /**************************/
@@ -218,6 +227,10 @@ h3 {
   max-width: 16rem;
   /* margin-right: auto; */
   transition: all 1.4s ease;
+}
+
+.extra-nav {
+  display: none;
 }
 
 /**************************/
