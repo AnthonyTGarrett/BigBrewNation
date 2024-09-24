@@ -26,6 +26,13 @@
     line-height: 1.8;
   }
 
+  .section-hero,
+  .section-hero-beer,
+  .section-hero-about,
+  .section-hero-cards {
+    height: 70vh;
+  }
+
   /* Hamburger Nav */
 
   .ham-menu,
@@ -328,6 +335,10 @@
 
   .mobile-intro {
     display: block;
+  }
+
+  .section-hero-beer-text h1 {
+    font-size: 2.8rem;
   }
 
   .section-hero {
