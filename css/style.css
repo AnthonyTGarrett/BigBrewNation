@@ -96,6 +96,10 @@ body {
   padding-bottom: 0.5rem;
 }
 
+.mobile-intro {
+  display: none;
+}
+
 
 /**************************/
 /* GENRAL REUSABLE COMPONENTS */
