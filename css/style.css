@@ -80,6 +80,23 @@ body {
   display: none;
 }
 
+.off-screen-menu ul li {
+  list-style: none;
+}
+
+.off-screen-menu ul li a:link,
+.off-screen-menu ul li a:visited{
+  display: inline-block;
+  text-decoration: none;
+  color: #ebebeb;
+  font-weight: 300;
+  font-size: 3.5rem;
+  transition: all 0.56s ease;
+  border: 1px solid transparent;
+  padding-bottom: 0.5rem;
+}
+
+
 /**************************/
 /* GENRAL REUSABLE COMPONENTS */
 /**************************/
