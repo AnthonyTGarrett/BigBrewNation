@@ -11,6 +11,10 @@
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
 
+  * {
+    border: 1px red solid;
+  }
+
   .mobile-intro {
     display: block;
   }
@@ -31,6 +35,11 @@
   .section-hero-about,
   .section-hero-cards {
     height: 70vh;
+  }
+
+  .section-hero-beer h1 {
+    font-size: 4.5rem;
+    margin-top: -3rem;
   }
 
   /* Hamburger Nav */
@@ -185,8 +194,13 @@
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
 
+  * {
+    border: 1px yellow solid;
+  }
+
   .mobile-intro {
     display: block;
+    font-size: 1.8rem
   }
 
   .section-hero {
@@ -207,7 +221,7 @@
   }
 
   .title-intro {
-    font-size: 3.2rem;
+    font-size: 4.8rem;
   }
 
   /* Hamburger Nav */
@@ -329,16 +343,22 @@
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+  * {
+    border: 1px blue solid;
+  }
+
   .text {
     font-size: 16px;
   }
 
   .mobile-intro {
     display: block;
+    font-size: 2.8rem;
   }
 
   .section-hero-beer-text h1 {
-    font-size: 2.8rem;
+    font-size: 6.8rem;
   }
 
   .section-hero {
@@ -346,14 +366,14 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: -25%;
+    margin-top: -10%;
     color: var(--gray-light);
     font-size: 2.4rem;
     line-height: 1.8;
   }
 
   .title-intro {
-    font-size: 3.5rem;
+    font-size: 5.8rem;
   }
 
    /* Hamburger Nav */
