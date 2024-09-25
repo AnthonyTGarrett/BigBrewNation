@@ -394,16 +394,31 @@ h5 {
 /* About            */
 /**************************/
 
-.section-hero-about {
-  height: 70vh;
-  background: url(../img/brew_image1.jpg), linear-gradient(180deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.8) 70%, rgba(0,0,0,1) 95%); 
-  background-size: 100% auto;
+.section-hero-beer {
+  height: 100vh;
+  background: url(../img/beer-list.jpg), linear-gradient(180deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.8) 70%, rgba(0,0,0,1) 95%); 
+  /* background-size: 100% auto;
   background-repeat: no-repeat;
+  background-position: 25% 75%; */
+  background: center center cover;
   background-blend-mode: overlay;
   border-top-left-radius: 10px;
   display: flex;
   flex-direction: column;
-  position: relative;
+}
+
+
+.section-hero-about {
+  height: 100vh;
+  background: url(../img/brew_image1.jpg), linear-gradient(180deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.8) 70%, rgba(0,0,0,1) 95%); 
+  /* background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: 25% 75%; */
+  background: no-repeat center center cover;
+  background-blend-mode: overlay;
+  border-top-left-radius: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 .section-hero-about-text {
