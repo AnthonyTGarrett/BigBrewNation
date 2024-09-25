@@ -16,6 +16,11 @@
   }
 
   @media(orientation: landscape) {
+
+    .mobile-intro *{
+      font-size: 1.5rem;
+    }
+    
     .title-intro,
     .section-hero-about h1,
     .section-hero-beer h1,
@@ -266,6 +271,11 @@
   }
 
   @media(orientation: landscape) {
+
+    .mobile-intro *{
+      font-size: 1.5rem;
+    }
+
     .title-intro,
     .section-hero-about h1,
     .section-hero-beer h1,
