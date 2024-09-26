@@ -636,7 +636,7 @@
    nav {
      padding: 1rem;
      display: flex;
-     background-color: #000;
+     background-color: transparent;
    }
  
    header.header {
