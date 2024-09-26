@@ -17,6 +17,15 @@
 
   @media(orientation: landscape) {
 
+    .title-intro,
+    .section-hero-about,
+    .section-hero-beer,
+    .section-hero-about,
+    .section-hero-dining,
+    .section-hero-cards {
+      height: 100vh;
+    }
+
     .mobile-intro *{
       font-size: 1.5rem;
     }
@@ -272,6 +281,15 @@
 
   @media(orientation: landscape) {
 
+    .title-intro,
+    .section-hero-about,
+    .section-hero-beer,
+    .section-hero-about,
+    .section-hero-dining,
+    .section-hero-cards {
+      height: 100vh;
+    }
+
     .mobile-intro *{
       font-size: 1.5rem;
     }
@@ -483,6 +501,16 @@
   }
 
     @media(orientation: landscape) {
+
+      .title-intro,
+      .section-hero-about,
+      .section-hero-beer,
+      .section-hero-about,
+      .section-hero-dining,
+      .section-hero-cards {
+        height: 100vh;
+      }
+      
       .mobile-intro *{
         font-size: 1.5rem;
       }
