@@ -17,7 +17,7 @@
 
   @media(orientation: landscape) {
 
-    .title-intro,
+    .section-hero,
     .section-hero-about,
     .section-hero-beer,
     .section-hero-about,
@@ -281,7 +281,7 @@
 
   @media(orientation: landscape) {
 
-    .title-intro,
+    .section-hero,
     .section-hero-about,
     .section-hero-beer,
     .section-hero-about,
@@ -502,7 +502,7 @@
 
     @media(orientation: landscape) {
 
-      .title-intro,
+      .section-hero,
       .section-hero-about,
       .section-hero-beer,
       .section-hero-about,
