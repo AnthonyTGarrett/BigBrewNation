@@ -70,7 +70,6 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    /* margin-top:-25%; */
     color: var(--gray-light);
     font-size: 1.4rem;
     line-height: 1.8;
@@ -86,6 +85,19 @@
   .section-hero-beer h1 {
     font-size: 4.5rem;
     margin-top: -3rem;
+  }
+
+  .section-hero-beer {
+    height: 70vh;
+    background: url(../img/beer-list.jpg), linear-gradient(180deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.8) 70%, rgba(0,0,0,1) 95%); 
+    background: center / center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+    background-blend-mode: overlay;
+    border-top-left-radius: 10px;
+    display: flex;
+    flex-direction: column;
   }
 
   .section-hero-about {
@@ -175,7 +187,7 @@
   nav {
     padding: 1rem;
     display: flex;
-    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.569);
   }
 
   header.header {
