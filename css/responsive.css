@@ -36,6 +36,7 @@
     .section-hero-dining h1,
     .section-hero-cards h1 {
       font-size: 3.5rem !important;
+      font-weight: 400;
     }
 
     .main-logo {
@@ -43,10 +44,20 @@
     }
   }
 
+  .title-intro,
+  .section-hero-about h1,
+  .section-hero-beer h1,
+  .section-hero-about h1,
+  .section-hero-dining h1,
+  .section-hero-cards h1 {
+    font-size: 3.5rem !important;
+    font-weight: 400;
+  }
+
   .mobile-intro,
   .section-hero-beer-text,
   .section-hero-dining-text,
-  .section-hero-about-text{
+  .section-hero-about-text {
     text-align: center;
     position: absolute;
     top:40%;
@@ -56,10 +67,14 @@
     display: block;
   }
 
+  .section-hero h3 {
+    font-size: 3.5rem;
+    font-weight: 400;
+  }
 
   .section-hero-about h1,
   .section-hero-dining h1 {
-    font-size: 5.4rem;
+    font-size: 3.5rem;
     margin-top: -3rem;
   }
 
@@ -69,12 +84,6 @@
     font-size: 1.4rem;
     line-height: 1.8;
     height: 70vh;
-  }
-
-
-  .section-hero-beer h1 {
-    font-size: 4.5rem;
-    margin-top: -3rem;
   }
 
   .section-hero-beer {
@@ -337,25 +346,30 @@
     }
   }
 
+  .mobile-intro,
+  .section-hero-beer-text,
+  .section-hero-dining-text,
+  .section-hero-about-text {
+    text-align: center;
+    position: absolute;
+    top:40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--gray-light);
+    display: block;
+  }
+
   .extra-nav {
     display: flex;
     background-color: transparent;
   }
 
-  .mobile-intro {
-    display: block;
-    font-size: 1.8rem
-  }
-
   .section-hero {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     text-align: center;
-    /* margin-top: -25%; */
     color: var(--gray-light);
     font-size: 1.4rem;
     line-height: 1.8;
+    height: 70vh;
   }
 
   .section-hero-about {
@@ -563,6 +577,30 @@
       }
     }
 
+    .mobile-intro,
+    .section-hero-beer-text,
+    .section-hero-dining-text,
+    .section-hero-about-text,
+    .section-hero-cards-text {
+      text-align: center;
+      position: absolute;
+      top:40%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: var(--gray-light);
+      display: block;
+    }
+
+    .title-intro,
+    .section-hero-about h1,
+    .section-hero-beer h1,
+    .section-hero-about h1,
+    .section-hero-dining h1,
+    .section-hero-cards h1 {
+      font-size: 4.5rem !important;
+      font-weight: 400;
+    }
+
   .text {
     font-size: 16px;
   }
@@ -578,10 +616,10 @@
     background-color: rgba(0, 0, 0, 0.569);
   }
 
-  .mobile-intro {
+  .mobile-intro p,
+  .mobile-intro address{
     display: block;
-    font-size: 2.8rem;
-    margin-top: -10%;
+    font-size: 2rem;
   }
 
   .section-hero-beer-text h1 {
@@ -589,13 +627,11 @@
   }
 
   .section-hero {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     text-align: center;
     color: var(--gray-light);
-    font-size: 2.4rem;
+    font-size: 1.4rem;
     line-height: 1.8;
+    height: 100vh;
   }
 
   .section-hero-about {
@@ -645,7 +681,7 @@
   }
 
   .title-intro {
-    font-size: 5.8rem;
+    font-size: 3.5rem;
   }
 
    /* Hamburger Nav */
