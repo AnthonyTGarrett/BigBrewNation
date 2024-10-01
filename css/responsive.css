@@ -547,6 +547,9 @@
       .section-hero-cards {
         height: 100vh;
       }
+      .section-hero-dining {
+        background-size: auto 100&;
+      }
       
       .mobile-intro *{
         font-size: 1.5rem;
