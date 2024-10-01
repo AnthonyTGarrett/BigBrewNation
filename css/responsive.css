@@ -548,7 +548,7 @@
         height: 100vh;
       }
       .section-hero-dining {
-        background-size: auto 100&;
+        background-size: auto 100%;
       }
       
       .mobile-intro *{
