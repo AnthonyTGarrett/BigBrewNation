@@ -43,15 +43,19 @@
     }
   }
 
-  .mobile-intro {
+  .mobile-intro,
+  .section-hero-beer-text,
+  .section-hero-dining-text,
+  .section-hero-about-text{
+    text-align: center;
+    position: absolute;
+    top:40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--gray-light);
     display: block;
   }
 
-
-
-  .extra-nav {
-    padding: 0;
-  }
 
   .section-hero-about h1,
   .section-hero-dining h1 {
@@ -59,28 +63,14 @@
     margin-top: -3rem;
   }
 
-  nav {
-    padding: 1rem;
-    display: flex;
-    background-color: rgba(0, 0, 0, 0.569);
-  }
-
   .section-hero {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     text-align: center;
     color: var(--gray-light);
     font-size: 1.4rem;
     line-height: 1.8;
-  }
-
-  .section-hero,
-  .section-hero-beer,
-  .section-hero-about,
-  .section-hero-cards {
     height: 70vh;
   }
+
 
   .section-hero-beer h1 {
     font-size: 4.5rem;
@@ -182,6 +172,8 @@
 
   .extra-nav {
     display: flex;
+    background-color: transparent;
+    padding: 0;
   }
 
   nav {
@@ -345,6 +337,11 @@
     }
   }
 
+  .extra-nav {
+    display: flex;
+    background-color: transparent;
+  }
+
   .mobile-intro {
     display: block;
     font-size: 1.8rem
@@ -359,12 +356,6 @@
     color: var(--gray-light);
     font-size: 1.4rem;
     line-height: 1.8;
-  }
-
-  .section-hero {
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
 
   .section-hero-about {
@@ -574,6 +565,11 @@
 
   .text {
     font-size: 16px;
+  }
+
+  .extra-nav {
+    display: flex;
+    background-color: transparent;
   }
 
   nav {
