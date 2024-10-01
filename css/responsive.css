@@ -318,14 +318,9 @@
       height: 100vh;
     }
 
-    .section-hero-dining {
-      background-size: cover;
-    }
-
     .mobile-intro {
       display: block;
       font-size: 2.8rem;
-      margin-top: -10%;
     }
 
     .mobile-intro *{
@@ -352,11 +347,21 @@
   .section-hero-about-text {
     text-align: center;
     position: absolute;
-    top:40%;
+    top:50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: var(--gray-light);
     display: block;
+  }
+
+  .title-intro,
+  .section-hero-about h1,
+  .section-hero-beer h1,
+  .section-hero-about h1,
+  .section-hero-dining h1,
+  .section-hero-cards h1 {
+    font-size: 5.5rem;
+    font-weight: 400;
   }
 
   .extra-nav {
@@ -369,7 +374,7 @@
     color: var(--gray-light);
     font-size: 1.4rem;
     line-height: 1.8;
-    height: 70vh;
+    height: 100vh;
   }
 
   .section-hero-about {
@@ -377,7 +382,7 @@
     background: url(../img/brew_image1.jpg), linear-gradient(180deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.8) 70%, rgba(0,0,0,1) 95%); 
     background: center / center;
     background-repeat: no-repeat;
-    background-size: auto 100%;
+    background-size: cover;
     background-position: center;
     background-blend-mode: overlay;
     border-top-left-radius: 10px;
@@ -390,7 +395,7 @@
     background: url(../img/gallery_5.jpg), linear-gradient(180deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.8) 70%, rgba(0,0,0,1) 95%); 
     background: center / center;
     background-repeat: no-repeat;
-    background-size: auto 100%;
+    background-size: cover;
     background-position: center;
     background-blend-mode: overlay;
     border-top-left-radius: 10px;
@@ -403,7 +408,7 @@
     background: url(../img/brew_image2.jpg), linear-gradient(180deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.8) 70%, rgba(0,0,0,1) 95%); 
     background: center / center;
     background-repeat: no-repeat;
-    background-size: auto 100%;
+    background-size: cover;
     background-position: center;
     background-blend-mode: overlay;
     border-top-left-radius: 10px;
@@ -556,13 +561,11 @@
       .section-hero-cards {
         height: 100vh;
       }
+      
       .section-hero-dining {
         background-size: cover;
       }
-      
-      .mobile-intro *{
-        font-size: 1.5rem;
-      }
+    
       .title-intro,
       .section-hero-about h1,
       .section-hero-beer h1,
@@ -584,7 +587,7 @@
     .section-hero-cards-text {
       text-align: center;
       position: absolute;
-      top:40%;
+      top:50%;
       left: 50%;
       transform: translate(-50%, -50%);
       color: var(--gray-light);
@@ -639,7 +642,7 @@
     background: url(../img/brew_image1.jpg), linear-gradient(180deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.8) 70%, rgba(0,0,0,1) 95%); 
     background: center / center;
     background-repeat: no-repeat;
-    background-size: auto 100%;
+    background-size: cover;
     background-position: center;
     background-blend-mode: overlay;
     border-top-left-radius: 10px;
@@ -652,7 +655,7 @@
     background: url(../img/gallery_5.jpg), linear-gradient(180deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.8) 70%, rgba(0,0,0,1) 95%); 
     background: center / center;
     background-repeat: no-repeat;
-    background-size: auto 100%;
+    background-size: cover;
     background-position: center;
     background-blend-mode: overlay;
     border-top-left-radius: 10px;
@@ -665,7 +668,7 @@
     background: url(../img/brew_image2.jpg), linear-gradient(180deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.8) 70%, rgba(0,0,0,1) 95%); 
     background: center / center;
     background-repeat: no-repeat;
-    background-size: auto 100%;
+    background-size: cover;
     background-position: center;
     background-blend-mode: overlay;
     border-top-left-radius: 10px;
