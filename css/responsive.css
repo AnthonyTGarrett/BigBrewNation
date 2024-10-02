@@ -308,24 +308,14 @@
     font-size: 2.8rem;
   }
 
- .purchase-card-form {
-  display: flex;
-  flex-direction: column;
- }
+  .balance-form {
+    max-width: 90%;
+    padding: 2rem 0;
+  }
 
- .personalize-container {
-  display: flex;
-  flex-direction: column;
- }
-
- .balance-form {
-  max-width: 90%;
-  padding: 2rem 0;
- }
-
- .balance-form form {
-  width: 100%;
- }
+  .balance-form form {
+    width: 100%;
+  }
 
   .electronic-gift-card,
   .physical-gift-card,
