@@ -11,9 +11,19 @@
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
 
-  * {
-    border: 1px red solid;
+  .section-hero,
+  .section-hero-about,
+  .section-hero-beer,
+  .section-hero-about,
+  .section-hero-dining,
+  .section-hero-cards,
+  .section-hero-purchase {
+    border-top-left-radius: 0;
   }
+
+  /* * {
+    border: 1px red solid;
+  } */
 
   @media(orientation: landscape) {
 
@@ -82,7 +92,6 @@
     text-align: center;
     color: var(--gray-light);
     font-size: 1.4rem;
-    line-height: 1.8;
     height: 70vh;
   }
 
@@ -94,7 +103,6 @@
     background-size: auto 100%;
     background-position: center;
     background-blend-mode: overlay;
-    border-top-left-radius: 10px;
     display: flex;
     flex-direction: column;
   }
@@ -107,7 +115,6 @@
     background-size: auto 100%;
     background-position: center;
     background-blend-mode: overlay;
-    border-top-left-radius: 10px;
     display: flex;
     flex-direction: column;
   }
@@ -120,7 +127,6 @@
     background-size: auto 100%;
     background-position: center;
     background-blend-mode: overlay;
-    border-top-left-radius: 10px;
     display: flex;
     flex-direction: column;
   }
@@ -133,7 +139,6 @@
     background-size: auto 100%;
     background-position: center;
     background-blend-mode: overlay;
-    border-top-left-radius: 10px;
     display: flex;
     flex-direction: column;
   }
@@ -157,7 +162,7 @@
   }
 
   .off-screen-menu {
-    background-color: var(--gray-dark);
+    background-color: rgba(0, 0, 0, 0.8);
     opacity: 80;
     height: 100vh;
     width: 100%;
@@ -182,13 +187,12 @@
   .extra-nav {
     display: flex;
     background-color: transparent;
-    padding: 0;
+    padding: 1rem;
   }
 
   nav {
     padding: 1rem;
-    display: flex;
-    background-color: rgba(0, 0, 0, 0.569);
+    display: flex;;
   }
 
   header.header {
@@ -334,6 +338,10 @@
     width: 35%;
   }
 
+  .balance-form {
+    margin-top: 2rem;
+  }
+
   input,
   textarea {
     width: 95%;
@@ -390,9 +398,9 @@
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
 
-  * {
+  /* * {
     border: 1px yellow solid;
-  }
+  } */
 
   @media(orientation: landscape) {
 
@@ -418,6 +426,10 @@
       padding: 0;
     }
 
+    .section-hero-purchase {
+      height: 100vh;
+    }
+
     .title-intro,
     .section-hero-about h1,
     .section-hero-beer h1,
@@ -425,6 +437,20 @@
     .section-hero-dining h1,
     .section-hero-cards h1 {
       font-size: 3.5rem !important;
+      line-height: 1.2;
+    }
+
+    .delivery-container,
+    .personalize-container,
+    .checkout-container {
+      width: 70%;
+    }
+
+    .input-box {
+      width: 65%;
+    }
+    .short-code {
+      width: 60%;
     }
   }
 
@@ -472,7 +498,7 @@
     background-size: cover;
     background-position: center;
     background-blend-mode: overlay;
-    border-top-left-radius: 10px;
+    
     display: flex;
     flex-direction: column;
   }
@@ -485,7 +511,7 @@
     background-size: cover;
     background-position: center;
     background-blend-mode: overlay;
-    border-top-left-radius: 10px;
+    
     display: flex;
     flex-direction: column;
   }
@@ -498,7 +524,7 @@
     background-size: cover;
     background-position: center;
     background-blend-mode: overlay;
-    border-top-left-radius: 10px;
+    
     display: flex;
     flex-direction: column;
   }
@@ -522,7 +548,7 @@
   }
 
   .off-screen-menu {
-    background-color: var(--gray-dark);
+    background-color: rgba(0, 0, 0, 0.8);
     opacity: 80;
     height: 100vh;
     width: 100%;
@@ -551,8 +577,7 @@
 
   nav {
     padding: 1rem;
-    display: flex;
-    background-color: rgba(0, 0, 0, 0.569);
+    display: flex;;
   }
 
   header.header {
@@ -681,9 +706,9 @@
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
 
-  * {
+  /* * {
     border: 1px blue solid;
-  }
+  } */
 
     @media(orientation: landscape) {
 
@@ -711,6 +736,23 @@
 
       .extra-nav {
         padding: 0;
+      }
+
+      .section-hero-purchase {
+        height: 100vh;
+      }
+
+      .delivery-container,
+      .personalize-container,
+      .checkout-container {
+        width: 70%;
+      }
+  
+      .input-box {
+        width: 65%;
+      }
+      .short-code {
+        width: 60%;
       }
     }
 
@@ -749,8 +791,7 @@
 
   nav {
     padding: 1rem;
-    display: flex;
-    background-color: rgba(0, 0, 0, 0.569);
+    display: flex;;
   }
 
   .mobile-intro p,
@@ -779,7 +820,7 @@
     background-size: cover;
     background-position: center;
     background-blend-mode: overlay;
-    border-top-left-radius: 10px;
+    
     display: flex;
     flex-direction: column;
   }
@@ -792,7 +833,7 @@
     background-size: cover;
     background-position: center;
     background-blend-mode: overlay;
-    border-top-left-radius: 10px;
+    
     display: flex;
     flex-direction: column;
   }
@@ -805,7 +846,7 @@
     background-size: cover;
     background-position: center;
     background-blend-mode: overlay;
-    border-top-left-radius: 10px;
+    
     display: flex;
     flex-direction: column;
   }
@@ -829,7 +870,7 @@
    }
  
    .off-screen-menu {
-     background-color: var(--gray-dark);
+    background-color: rgba(0, 0, 0, 0.8);
      opacity: 80;
      height: 100vh;
      width: 100%;
@@ -858,8 +899,7 @@
  
    nav {
     padding: 1rem;
-    display: flex;
-    background-color: rgba(0, 0, 0, 0.569);
+    display: flex;;
   }
    header.header {
      display: none;
