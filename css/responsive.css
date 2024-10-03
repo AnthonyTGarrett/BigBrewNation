@@ -320,18 +320,18 @@
   }
 
   .input-box {
-    width: 70%;
+    width: 60%;
   }
 
   .label-box {
     font-size: 1.5rem;
     padding: .5rem;
-    width: 30%;
+    width: 40%;
   }
 
   input,
   textarea {
-    width: 88%;
+    width: 75%;
   }
 
   .balance-form {
