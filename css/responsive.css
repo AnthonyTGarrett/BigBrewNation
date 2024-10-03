@@ -320,12 +320,13 @@
   }
 
   .input-box {
-    width: 90%;
+    width: 70%;
   }
 
   .label-box {
     font-size: 1.5rem;
     padding: .5rem;
+    width: 30%;
   }
 
   input,

@@ -724,7 +724,7 @@ h5 {
   flex-direction: column;
   gap: 3rem;
   
-  min-width: 300px;
+  /* min-width: 300px; */
  }
 
  .input-box input {
